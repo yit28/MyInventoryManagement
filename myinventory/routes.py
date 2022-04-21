@@ -110,8 +110,6 @@ def move():
         flash(f'Transfer products  to view', 'info')
     # ----------------------------------------------------------
     prod_choices = Product.query.with_entities(Product.prod_name, Product.prod_name).all()
-    if prod_choices:
-        prod_choices = [prod[0] for prod in prod_choices]
     loc_choices = Location.query.with_entities(Location.loc_name, Location.loc_name).all()
     prod_list_names = []
     src_list_names, dest_list_names = [('Warehouse', 'Warehouse')], [('Warehouse', 'Warehouse')]
