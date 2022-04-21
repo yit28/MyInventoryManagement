@@ -1,6 +1,7 @@
 # My Inventory Management
 An inventory management system with simple interface in boostrap on the frontend and Flask on the backend
 
+The Service is deployed and available on AWS: http://54.183.103.141:5000/
 ## Getting Started
 
 
